@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npm create vite@latest . -- --template react 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && echo \"y\" | npm create vite@latest temp-project -- --template react 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && mv temp-project/* temp-project/.* . 2>/dev/null; rmdir temp-project 2>/dev/null; ls -la)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npm install 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npx vite --host 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game/src/components\" && mv FadeIn.jsx ui/ && mv Navbar.jsx Footer.jsx layout/ && mv Hero.jsx Features.jsx HowItWorks.jsx Testimonials.jsx CTA.jsx sections/)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npm install -D typescript @types/react @types/react-dom 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game/src\" && mv main.jsx main.tsx && mv App.jsx App.tsx && mv hooks/useScrollAnimation.js hooks/useScrollAnimation.ts && mv components/ui/FadeIn.jsx components/ui/FadeIn.tsx && mv components/layout/Navbar.jsx components/layout/Navbar.tsx && mv components/layout/Footer.jsx components/layout/Footer.tsx && mv components/sections/Hero.jsx components/sections/Hero.tsx && mv components/sections/Features.jsx components/sections/Features.tsx && mv components/sections/HowItWorks.jsx components/sections/HowItWorks.tsx && mv components/sections/Testimonials.jsx components/sections/Testimonials.tsx && mv components/sections/CTA.jsx components/sections/CTA.tsx)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npm run build 2>&1)",
+      "Bash(cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npx tsc 2>&1)",
+      "Bash(rm -rf \"C:/Users/dorat/Devs/LandingPage_Game/dist\" && cd \"C:/Users/dorat/Devs/LandingPage_Game\" && npm run build 2>&1)"
+    ]
+  }
+}

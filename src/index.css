@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800;900&family=Rubik:wght@400;500;600;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #e91e8c;
+  --primary-light: #f472b6;
+  --primary-dark: #be185d;
+  --secondary: #06b6d4;
+  --secondary-light: #67e8f9;
+  --accent-yellow: #fbbf24;
+  --accent-orange: #f97316;
+  --text-dark: #1e293b;
+  --text-medium: #475569;
+  --text-light: #94a3b8;
+  --bg-cream: #fef7f0;
+  --bg-white: #ffffff;
+  --bg-light-pink: #fff0f6;
+  --bg-light-blue: #f0f9ff;
+  --bg-light-yellow: #fffbeb;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 14px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.15);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  color: var(--text-dark);
+  background: var(--bg-cream);
+  overflow-x: hidden;
+  direction: rtl;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
