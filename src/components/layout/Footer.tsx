@@ -3,7 +3,15 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <h3>🏠 מרכז טובה נר</h3>
+          <h3>
+            <img
+              src="/tova_ner_center.png"
+              alt="מרכז טובה נר"
+              className="footer-logo-img"
+              style={{ height: "120px", width: "auto" }}
+            />{" "}
+            מרכז טובה נר
+          </h3>
           <p>
             שינוי לטובה בתא המשפחתי — תקשורת והפנמת כלים למיומנויות לוויסות
             רגשי. אפשר להטמיע כבר עם המשפחה ולא רק בחדר הטיפולים.
